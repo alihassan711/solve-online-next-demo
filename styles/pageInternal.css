@@ -1,0 +1,222 @@
+/*!
+ * Bootstrap v4.6.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ /* sub header active #5DC7CF */
+ /* BLUE #4A77F6 */
+ /* BACKGROUND AND NAV #F9F9FB */
+ */:root{--blue:#007bff;--indigo:#6610f2;--purple:#6f42c1;--pink:#e83e8c;--red:#dc3545;--orange:#fd7e14;--yellow:#ffc107;--green:#28a745;--teal:#20c997;--cyan:#17a2b8;--white:#fff;--gray:#6c757d;--gray-dark:#343a40;--primary:#007bff;--secondary:#6c757d;--success:#28a745;--info:#17a2b8;--warning:#ffc107;--danger:#dc3545;--light:#f8f9fa;--dark:#343a40;--breakpoint-xs:0;--breakpoint-sm:576px;--breakpoint-md:768px;--breakpoint-lg:992px;--breakpoint-xl:1200px;--font-family-sans-serif:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";--font-family-monospace:SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+ .border_set{border:2px solid black}
+ body{
+     background-color: #F9F9FB;
+     margin:0;
+     padding:0;
+ }
+ .breadcrumb{
+    background-color: #F9F9FB !important;
+ }
+ .bread_crumb_set{
+     color: black !important;
+     font-size: 15px !important;
+ }
+ .detail_available_price{
+     background-color: white;
+     padding: 21px;
+     margin-left: 14px;
+     padding-right: 28px;
+ }
+ .avail_price{
+     color:  #5DC7CF;
+ }
+ .heading-my-loads{
+    font-size: 17px;
+    font-weight: bold;
+ }
+ .my-load-email{
+    color: #ADBBCC;
+ }
+ .main_header_search{
+    padding-right: 170px;
+ }
+.heading-page {
+    font-size: 26px;
+    font-weight: bold;
+}
+    .ch_header{
+        background-color: #161334;
+    }
+    .form-check-label{
+        text-transform: uppercase;
+        color: #ADBBCC;
+    }
+    .header_second{
+        display: flex;
+        text-transform: uppercase;
+        border-right: 2px solid  black;
+        margin-left: 90px;
+        padding-right: 68px !important;
+    }
+  .child {
+    display: inline-block;
+    padding: 1rem 1rem;
+    vertical-align: middle;
+  }
+  .detail_profile{
+      border-right: 2px solid black;
+  }
+  .nav_menu{
+    border: 2px solid #17a2b8;
+    /* padding-right: 45px !important; */
+  }
+  .market_menu{
+      color: black !important;
+      font-size: 17px;
+    font-weight: bold;
+  }
+  .header_img{
+    margin-right: 44px;
+    width: 174px;
+  }
+  .mail_img{
+      width:20px;
+  }
+.tracking-detail {
+    padding:3rem 0
+   }
+   #tracking {
+    margin-bottom:1rem;
+    margin-left: -109px;
+   }
+   [class*=tracking-status-] p {
+    margin:0;
+    font-size:1.1rem;
+    color:#fff;
+    text-transform:uppercase;
+    text-align:center
+   }
+   [class*=tracking-status-] {
+    padding:1.6rem 0
+   }
+   .tracking-status-intransit {
+    background-color:#65aee0
+   }
+   .tracking-status-outfordelivery {
+    background-color:#f5a551
+   }
+   .tracking-status-deliveryoffice {
+    background-color:#f7dc6f
+   }
+   .tracking-status-delivered {
+    background-color:#4cbb87
+   }
+   .tracking-status-attemptfail {
+    background-color:#b789c7
+   }
+   .tracking-status-error,.tracking-status-exception {
+    background-color:#d26759
+   }
+   .tracking-status-expired {
+    background-color:#616e7d
+   }
+   .tracking-status-pending {
+    background-color:#ccc
+   }
+   .tracking-status-inforeceived {
+    background-color:#214977
+   }
+   /* .tracking-list {
+    border:1px solid #e5e5e5
+   } */
+   .tracking-item {
+    border-left:1px solid #e5e5e5;
+    position:relative;
+    padding:2rem 1.5rem .5rem 2.5rem;
+    font-size:.9rem;
+    margin-left:3rem;
+    min-height:5rem
+   }
+   .tracking-item:last-child {
+    padding-bottom:4rem
+   }
+   .tracking-item .tracking-date {
+    margin-bottom:.5rem
+   }
+   .tracking-item .tracking-date span {
+    color:#888;
+    font-size:85%;
+    padding-left:.4rem
+   }
+   .tracking-item .tracking-content {
+    padding:.5rem .8rem;
+    background-color:#f4f4f4;
+    border-radius:.5rem
+   }
+   .tracking-item .tracking-content span {
+    display:block;
+    color:#888;
+    font-size:85%
+   }
+   .tracking-item .tracking-icon {
+    line-height:2.6rem;
+    position:absolute;
+    left:-1.3rem;
+    width:2.6rem;
+    height:2.6rem;
+    text-align:center;
+    border-radius:50%;
+    font-size:1.1rem;
+    background-color:#fff;
+    color:#fff
+   }
+   .tracking-item .tracking-icon.status-sponsored {
+    background-color:#f68
+   }
+   .tracking-item .tracking-icon.status-delivered {
+    background-color:#4cbb87
+   }
+   .tracking-item .tracking-icon.status-outfordelivery {
+    background-color:#f5a551
+   }
+   .tracking-item .tracking-icon.status-deliveryoffice {
+    background-color:#f7dc6f
+   }
+   .tracking-item .tracking-icon.status-attemptfail {
+    background-color:#b789c7
+   }
+   .tracking-item .tracking-icon.status-exception {
+    background-color:#d26759
+   }
+   .tracking-item .tracking-icon.status-inforeceived {
+    background-color:#214977
+   }
+   .tracking-item .tracking-icon.status-intransit {
+    color:#e5e5e5;
+    border:1px solid #e5e5e5;
+    font-size:.6rem
+   }
+   @media(min-width:992px) {
+    .tracking-item {
+     margin-left:10rem
+    }
+    .tracking-item .tracking-date {
+     position:absolute;
+     left:-10rem;
+     width:7.5rem;
+     text-align:right
+    }
+    .tracking-item .tracking-date span {
+     display:block
+    }
+    .tracking-item .tracking-content {
+     padding:0;
+     background-color:transparent
+    }
+   }
+
+   .div_background_set{
+    background-color: white !important;
+ }
+ 
+
+/*# sourceMappingURL=bootstrap.min.css.map */

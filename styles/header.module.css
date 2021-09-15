@@ -1,0 +1,11 @@
+.navbar_brand {
+    border-right: 2px solid #eee;
+    line-height: 10px;
+    padding: 0 20px 0;
+}
+
+.navbar_brand_right_line {
+    width: 2px;
+    height: 20px;
+    background-color: #eee;
+}
